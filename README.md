@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/sfml-render-system-demo-gif.gif" width="50%">
+  <img src="images/sfml-render-system-demo-gif.gif">
 </div>
 
 <h1>SFML Render System Demo</h1>
