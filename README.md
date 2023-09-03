@@ -8,7 +8,7 @@ This project demonstrates a flexible and simple design pattern for [SFML](https:
 
 The design pattern source code is [here](source/design-pattern/) and the rest of the demo source code is [here](source/demo/).
 
-Windows x64 and x86 builds of the demo are available.
+Windows x64 and x86 builds of the demo are [available](https://github.com/lukas-vaiciunas/sfml-render-system-demo/releases/tag/v1.0.0).
 
 ## Background
 
@@ -36,18 +36,18 @@ Two custom types of Drawables are defined in this demonstration: [WorldDrawable]
 
 The main difference between WorldDrawable and InterfaceDrawable are that WorldDrawables are translated by a camera position while InterfaceDrawables are not. Additionally, they are each scaled by their respective value.
 
-**WorldDrawable**
+### WorldDrawable
 - Translated by a camera position.
 - Scaled by a world scale.
   
-**InterfaceDrawable**
+### InterfaceDrawable
 - Scaled by an interface scale.
 
-**Controls**
+### Controls
 - WASD/Arrow Keys: Move
 - Space: Freeze/Unfreeze Camera
 - Escape: Exit Demo
 
-## Considerations
+## Notes
 
 - The camera position is passed to WorldDrawables instead of the WorldCamera object itself to avoid repeated calls to WorldCamera::getPosition.
