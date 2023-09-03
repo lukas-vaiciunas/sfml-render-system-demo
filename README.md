@@ -1,9 +1,9 @@
 <div align="center">
   <img src="images/sfml-render-system-demo-gif.gif" width="50%">
-  
 </div>
 
 <h1>SFML Render System Demo</h1>
+
 This project demonstrates a flexible and simple design pattern for [SFML](https://www.sfml-dev.org/) that enables the rendering of both _scaled_ sprites and _non-scaled_ text in the same drawing hierarchy.
 
 The design pattern source code is [here](source/design-pattern/) and the rest of the demo source code is [here](source/demo/).
